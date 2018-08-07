@@ -1,0 +1,49 @@
+package methods;
+import java.util.Scanner;
+public class MethodID {
+	public static Scanner userInput = new Scanner(System.in);
+	public static int id(int myId) {
+		int id = myId;
+		return myId;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Enter your ID number:");
+		int id = userInput.nextInt();
+		
+		int myId = 300300;
+		if(id==myId) {
+			System.out.println("NAME.\n Jones Kilonzo.");
+			System.out.println("GENDER.\n Male");
+			System.out.println("DATE.\n 28-06-1996.");
+			System.out.println("DISTRICT.\n Katulani.");
+			System.out.println("PLACE OF ISSUE.\n Katulani.");
+			System.out.println("DATE OF ISSUE.\n 28-08-2015.");
+		}
+		int myId1 = 34356;
+		if(id==myId1) {
+			System.out.println("NAME.\n Tunechi Pablo.");
+			System.out.println("GENDER.\n Male");
+			System.out.println("DATE.\n 28-06-2008.");
+			System.out.println("DISTRICT.\n NEW YORK.");
+			System.out.println("PLACE OF ISSUE.\n Las Vegas.");
+			System.out.println("DATE OF ISSUE.\n 28-08-2026.");
+		}
+		int myId2 = 3367890;
+		if(id==myId2) {
+			System.out.println("NAME.\n Scallette Monreal.");
+			System.out.println("GENDER.\n Female");
+			System.out.println("DATE.\n 28-06-1999.");
+			System.out.println("DISTRICT.\n Mtwapa.");
+			System.out.println("PLACE OF ISSUE.\n Kilifi.");
+			System.out.println("DATE OF ISSUE.\n 28-08-2017.");
+		}
+
+		else if(id!=myId) 
+			{
+			System.out.println("Sorry!!! The Id doesn't get match, try again.");
+		}
+
+	}
+
+}
