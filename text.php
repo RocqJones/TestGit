@@ -1,6 +1,3 @@
-This is my first text file .
-
-sample change as follows.
 <?php
 include "includes/header.php";
 $page ="LogIn";
